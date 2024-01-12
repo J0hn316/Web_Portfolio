@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: midnightblue;
+}
+
+.link {
+  font-size: 1.2rem;
+  font-family: 'Pixelify Sans', sans-serif;
+  text-decoration-line: none;
+  color: white;
+  padding-top: 10px;
+}
+
+#top {
+  font-family: 'Pixelify Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#container {
+  font-family: 'Pixelify Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.first {
+  font-size: 2rem;
+  font-family: 'Pixelify Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.img-circle {
+  height: 350px;
+  border-radius: 50%;
+  border: solid #fff;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.projectCards {
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.img-block {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  border: solid #fff;
+  margin: 3px;
+}
+
+.game span {
+  position: fixed;
+  bottom: -80px;
+  animation: animate 10s linear infinite;
+  font-size: 60px;
+  z-index: -1;
+}
+
+.game span:nth-child(1) {
+  left: 60px;
+  animation-delay: 0.6s;
+}
+
+.game span:nth-child(2) {
+  left: 10%;
+  animation-delay: 3s;
+}
+
+.game span:nth-child(3) {
+  left: 20%;
+  animation-delay: 2s;
+}
+
+.game span:nth-child(4) {
+  left: 30%;
+  animation-delay: 5s;
+}
+
+.game span:nth-child(5) {
+  left: 40%;
+  animation-delay: 1s;
+}
+.game span:nth-child(6) {
+  left: 50%;
+  animation-delay: 7s;
+}
+.game span:nth-child(7) {
+  left: 60%;
+  animation-delay: 6s;
+}
+.game span:nth-child(8) {
+  left: 70%;
+  animation-delay: 8s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
+}
