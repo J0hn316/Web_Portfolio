@@ -8,6 +8,10 @@ body {
   background-color: midnightblue;
 }
 
+p {
+  font-size: larger;
+}
+
 .link {
   font-size: 1.2rem;
   font-family: 'Pixelify Sans', sans-serif;
