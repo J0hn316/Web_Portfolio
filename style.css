@@ -15,7 +15,7 @@ p {
 .link {
   font-size: 1.2rem;
   font-family: 'Pixelify Sans', sans-serif;
-  text-decoration-line: none;
+  /* text-decoration-line: none; */
   color: white;
   padding-top: 10px;
 }
@@ -24,6 +24,22 @@ p {
   font-family: 'Pixelify Sans', sans-serif;
   color: white;
   text-align: center;
+}
+
+#info{
+  font-family: 'Pixelify Sans', sans-serif;
+  color: white;
+  text-align: center;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 #container {
@@ -44,6 +60,19 @@ p {
   border-radius: 50%;
   border: solid #fff;
   box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about{
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 #projects {
